@@ -27,16 +27,12 @@ npm run dev
 
 ```
 npm run build
-
-
-
-### To run test with Jest
-
 ```
 
-npm run unit:test
+### To run tests with Jest
 
+```
+npm run test:unit
 ```
 
 Made by Héctor Martínez, March 2nd - 2023
-```
