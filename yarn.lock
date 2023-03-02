@@ -627,6 +627,13 @@
     "@nodelib/fs.scandir" "2.1.5"
     "fastq" "^1.6.0"
 
+"@pinia/testing@^0.0.15":
+  "integrity" "sha512-Ykz5sPUVDphDMssA27+ExPSzxqfn7Y3jax77KA0AChDB6ODu31CnXIwoiUG+U5WA6ey7gzHkZh8wlnAtzVnB8g=="
+  "resolved" "https://registry.npmjs.org/@pinia/testing/-/testing-0.0.15.tgz"
+  "version" "0.0.15"
+  dependencies:
+    "vue-demi" "*"
+
 "@rollup/pluginutils@^4.1.0":
   "integrity" "sha512-ROn4qvkxP9SyPeHaf7uQC/GPFY6L/OWy9+bd9AwcjOAWQwxRscoEyAUD8qCY5o5iL4jqQwoLk2kaTKJPb/HwzQ=="
   "resolved" "https://registry.npmjs.org/@rollup/pluginutils/-/pluginutils-4.1.2.tgz"
@@ -962,10 +969,10 @@
     "@vue/compiler-dom" "3.2.33"
     "@vue/shared" "3.2.33"
 
-"@vue/devtools-api@^6.0.0", "@vue/devtools-api@^6.1.4":
-  "integrity" "sha512-IiA0SvDrJEgXvVxjNkHPFfDx6SXw0b/TUkqMcDZWNg9fnCAHbTpoo59YfJ9QLFkwa3raau5vSlRVzMSLDnfdtQ=="
-  "resolved" "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.1.4.tgz"
-  "version" "6.1.4"
+"@vue/devtools-api@^6.0.0", "@vue/devtools-api@^6.5.0":
+  "integrity" "sha512-o9KfBeaBmCKl10usN4crU53fYtC1r7jJwdGKjPT24t348rHxgfpZ0xL3Xm/gLUYnc0oTp8LAmrxOeLyu6tbk2Q=="
+  "resolved" "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.5.0.tgz"
+  "version" "6.5.0"
 
 "@vue/eslint-config-prettier@^7.0.0":
   "integrity" "sha512-/CTc6ML3Wta1tCe1gUeO0EYnVXfo3nJXsIhZ8WJr3sov+cGASr6yuiibJTL6lmIBm7GobopToOuB3B6AWyV0Iw=="
@@ -3558,12 +3565,12 @@
   "resolved" "https://registry.npmjs.org/picomatch/-/picomatch-2.3.1.tgz"
   "version" "2.3.1"
 
-"pinia@^2.0.13":
-  "integrity" "sha512-B7rSqm1xNpwcPMnqns8/gVBfbbi7lWTByzS6aPZ4JOXSJD4Y531rZHDCoYWBwLyHY/8hWnXljgiXp6rRyrofcw=="
-  "resolved" "https://registry.npmjs.org/pinia/-/pinia-2.0.13.tgz"
-  "version" "2.0.13"
+"pinia@^2.0.13", "pinia@>=2.0.31":
+  "integrity" "sha512-8Tw4OrpCSJ028UUyp0gYPP/wyjigLoEceuO/x1G+FlHVf73337e5vLm4uDmrRIoBG1hvaed/eSHnrCFjOc4nkA=="
+  "resolved" "https://registry.npmjs.org/pinia/-/pinia-2.0.32.tgz"
+  "version" "2.0.32"
   dependencies:
-    "@vue/devtools-api" "^6.1.4"
+    "@vue/devtools-api" "^6.5.0"
     "vue-demi" "*"
 
 "pirates@^4.0.4":
@@ -4575,9 +4582,9 @@
     "vscode-typescript-languageservice" "0.29.8"
 
 "vue-demi@*":
-  "integrity" "sha512-QL3ny+wX8c6Xm1/EZylbgzdoDolye+VpCXRhI2hug9dJTP3OUJ3lmiKN3CsVV3mOJKwFi0nsstbgob0vG7aoIw=="
-  "resolved" "https://registry.npmjs.org/vue-demi/-/vue-demi-0.12.1.tgz"
-  "version" "0.12.1"
+  "integrity" "sha512-IR8HoEEGM65YY3ZJYAjMlKygDQn25D5ajNFNoKh9RSDMQtlzCxtfQjdQgv9jjK+m3377SsJXY8ysq8kLCZL25A=="
+  "resolved" "https://registry.npmjs.org/vue-demi/-/vue-demi-0.13.11.tgz"
+  "version" "0.13.11"
 
 "vue-eslint-parser@^8.0.0", "vue-eslint-parser@^8.0.1":
   "integrity" "sha512-lhWjDXJhe3UZw2uu3ztX51SJAPGPey1Tff2RK3TyZURwbuI4vximQLzz4nQfCv8CZq4xx7uIiogHMMoSJPr33A=="

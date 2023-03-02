@@ -8,8 +8,8 @@
 <script lang="ts" setup>
   /* imports */
   import { ref } from "vue";
-  import { usePapersStore } from "@/store/modules/papers";
-  import CardGeneral from "@/components/card-general/CardGeneral.vue";
+  import { usePapersStore } from "../../store/modules/papers";
+  import CardGeneral from "../../components/card-general/CardGeneral.vue";
 
   // Instance to store
   const paper = usePapersStore().paper;

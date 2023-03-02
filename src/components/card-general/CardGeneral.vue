@@ -72,8 +72,8 @@
 <script lang="ts" setup>
   /* imports */
   import { ref } from "vue";
-  import CardAuthor from "@/components/card-author/CardAuthor.vue";
-  import Arrow from "@/assets/images/Arrow.svg?component";
+  import CardAuthor from "../../components/card-author/CardAuthor.vue";
+  import Arrow from "../../assets/images/Arrow.svg?component";
 
   /* access var */
   const collapsibleOpen = ref(false);
@@ -82,6 +82,7 @@
   const yourselfOpened = ref(false);
   const authorInfo = ref();
   const authorIndex = ref();
+
   /* Interfaces and types */
   interface Author {
     id: number;
