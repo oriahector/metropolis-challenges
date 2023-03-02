@@ -10,8 +10,9 @@
             ><span>and </span
             ><span class="underline">{{ author.fullName }}</span></span
           >
-          <span v-else class="underline">{{ author.fullName }},</span
-          ><sup>{{ author.affiliations.length }}</sup>
+          <span v-else class="underline">{{ author.fullName }}</span
+          ><sup>{{ author.affiliations.length }}</sup
+          ><template v-if="i !== data.authors.length - 1">, </template>
           <CardAuthor
             v-if="authorOpened && i === authorIndex"
             v-click-outside="() => (authorOpened = false)"
