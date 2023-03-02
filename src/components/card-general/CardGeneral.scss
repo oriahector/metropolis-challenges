@@ -1,0 +1,79 @@
+.card-general {
+  width: auto;
+  max-width: rem(659);
+  height: auto;
+  background-color: $white;
+  padding: rem(24) rem(32);
+  box-shadow: 0 rem(2) rem(5) rgba(0, 0, 0, 0.1);
+  position: relative;
+  transition: max-height 3s ease;
+
+  @include media($desktop) {
+    min-height: rem(299);
+  }
+
+  &__type {
+    color: $dark-grey;
+    margin-bottom: rem(4);
+  }
+
+  &__authors,
+  &__editors {
+    margin-bottom: rem(8);
+
+    sup {
+      font-size: smaller;
+      margin-left: rem(2);
+    }
+  }
+
+  &__author {
+    @include media($desktop) {
+      position: relative;
+    }
+  }
+
+  &__affiliation {
+    margin-bottom: rem(14);
+
+    * {
+      font-size: rem(13);
+    }
+
+    a {
+      font-weight: 400;
+      display: flex;
+      align-items: center;
+    }
+
+    p {
+      line-height: rem(18);
+      color: $dark-grey;
+    }
+
+    sup {
+      font-size: smaller;
+      margin-right: rem(2);
+    }
+
+    svg {
+      max-width: rem(12);
+      margin-left: rem(6);
+      transition: all 0.2s ease;
+
+      &.open {
+        transform: rotate(180deg);
+      }
+    }
+  }
+
+  .v-enter-active,
+  .v-leave-active {
+    transition: opacity 0.3s ease;
+  }
+
+  .v-enter-from,
+  .v-leave-to {
+    opacity: 0;
+  }
+}

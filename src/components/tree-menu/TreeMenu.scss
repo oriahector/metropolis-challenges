@@ -1,0 +1,35 @@
+.label {
+  display: inline-block;
+  cursor: pointer;
+  margin-top: rem(8);
+
+  svg {
+    width: rem(14);
+    height: rem(8);
+    margin-right: rem(4);
+  }
+
+  &::after {
+    content: "";
+    border-bottom: rem(2) solid $blue;
+    display: block;
+    transform: scaleX(0);
+    transition: transform 0.2s ease-in-out;
+  }
+
+  &.rotate {
+    &::after {
+      transform: scaleX(1);
+    }
+
+    svg {
+      transform: rotate(180deg);
+      transition: all 0.3s;
+    }
+  }
+}
+
+.child {
+  margin-left: rem(10);
+  padding-left: rem(10);
+}

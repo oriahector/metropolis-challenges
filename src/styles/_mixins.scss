@@ -1,0 +1,13 @@
+// REM conversor
+@use 'sass:math';
+
+@function rem($size) {
+  @return math.div($size, $f-base) * 1rem;
+}
+
+// Media query breakpoint
+@mixin media($breakpoint) {
+  @media only screen and (min-width: $breakpoint) {
+    @content;
+  }
+}
